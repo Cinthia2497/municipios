@@ -12,4 +12,4 @@ try:
     departamento = input("Ingresar depto.: ")
     print("La Cebecera de {} es  {} .".format(departamento, format(cabecera[departamento],)))
 except KeyError:
-    print("El Pais no existe") 
+    print("La cabecera no existe") 
